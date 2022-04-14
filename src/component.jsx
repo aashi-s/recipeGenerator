@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Component() {
+export default function Component(props) {
     return (
         <div>
-            <p>component</p>
+            <p>{props.message}</p>
         </div>
     )
 }

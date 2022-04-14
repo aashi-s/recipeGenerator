@@ -9,7 +9,7 @@ function App() {
         <p>
           Edit
         </p>
-        <Component/>
+        <Component message="hello world"/>
       </header>
     </div>
   );
