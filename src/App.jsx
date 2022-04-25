@@ -1,16 +1,11 @@
 import logo from './logo.svg';
 import './App.scss';
-import Component from './component.jsx'
+import NewRecipe from './newRecipe.jsx'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit
-        </p>
-        <Component message="hello world"/>
-      </header>
+      <NewRecipe/>
     </div>
   );
 }

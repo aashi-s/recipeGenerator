@@ -1,0 +1,31 @@
+body {
+    background-color: #3d405b;
+}
+
+.randomButton {
+    margin: 1em;
+}
+
+.recipeCard {
+    background-color: #f4f1de;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 2em;
+    height: auto;
+    border-radius: 25px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.recipeCard > img {
+    width: 50%;
+    margin: 20px;
+}
+
+.rightColumn {
+    margin: 10px;
+    color: #003049;
+}
+
