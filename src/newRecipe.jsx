@@ -13,6 +13,17 @@ export default function NewRecipe(){
             main: '#e07a5f',
             contrastText: '#fff',
           },
+          secondary: 
+          {
+            main: '#f2cc8f',
+            contrastText: '#3d405b',
+          },
+        },
+        typography: {
+            fontFamily: [
+                "Barlow",
+                "sans-serif"
+            ].join(",")
         },
       });
 
@@ -27,6 +38,14 @@ export default function NewRecipe(){
 
     return (
         <div>
+            <div className="doodle drink"></div>
+            <div className="doodle bowl"></div>
+            <div className="doodle cake"></div>
+            <div className="doodle pudding"></div>
+            <div className="doodle lemonade"></div>
+
+            <h1 className="description">Find your next favourite recipe</h1>
+            <p className="description">Pick one of these tried and true baked goods, and see for yourself why we love them!</p>
             <div className="randomButton">
                 <ThemeProvider theme={theme}>
                     <Button
@@ -35,7 +54,8 @@ export default function NewRecipe(){
                         onClick={() => {
                             setClicked(true);
                             getRecipe();
-                        }}>
+                        }}
+                        sx={{fontSize:"16px"}}>
                         {clicked ? "Get another one" : "Find me a recipe"}
                     </Button>
                 </ThemeProvider>
@@ -45,7 +65,7 @@ export default function NewRecipe(){
                 <div className="rightColumn">
                     <h1>{recipe.title}</h1>
                     <ThemeProvider theme={theme}>
-                        <Button href={recipe.link} target="_blank" variant="contained" color="primary">Go to recipe</Button>
+                        <Button href={recipe.link} target="_blank" variant="contained" color="secondary" sx={{fontWeight:"600"}}>Go to recipe</Button>
                     </ThemeProvider>
                 </div> 
             </div>}

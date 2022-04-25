@@ -34,11 +34,11 @@ export const recipeLinks = [
         link : "https://sallysbakingaddiction.com/garlic-knots-recipe/"
     }, {
         id : 8,
-        title : "Levain Bakery-Style Chocolate Chip Cookies Recipe",
+        title : "Levain Bakery-Style Chocolate Chip Cookies",
         link : "https://www.seriouseats.com/super-thick-chocolate-chip-cookie-recipe"
     }, {
         id : 9,
-        title : "Soft Dinner Rolls Recipe",
+        title : "Soft Dinner Rolls",
         link : "https://sallysbakingaddiction.com/soft-dinner-rolls/"
     }, {
         id : 10,
@@ -54,7 +54,7 @@ export const recipeLinks = [
         link : "https://chipabythedozen.com/en/pao-de-deus-portuguese-bread/"
     }, {
         id : 13,
-        title : "Artisanal Whole Wheat Bread Recipe",
+        title : "Artisanal Whole Wheat Bread",
         link : "https://www.biggerbolderbaking.com/whole-wheat-bread-recipe-no-knead/"
     }, {
         id : 14,
@@ -64,5 +64,49 @@ export const recipeLinks = [
         id : 15,
         title : "Whole Wheat Sandwich Bread",
         link : "https://tasty.co/recipe/whole-wheat-sandwich-bread"
+    }, {
+        id : 16,
+        title : "Homemade Pizza Dough",
+        link : "https://sallysbakingaddiction.com/homemade-pizza-crust-recipe/"
+    }, {
+        id: 17,
+        title : "Sacher Torte",
+        link : "https://www.baking-sense.com/2017/12/07/sacher-torte/"
+    }, {
+        id : 18,
+        title : "Classic Tiramisù",
+        link : "https://cooking.nytimes.com/recipes/1018684-classic-tiramisu"
+    }, {
+        id : 19,
+        title : "Chocolate Babka",
+        link : "https://prettysimplesweet.com/chocolate-babka/"
+    }, {
+        id : 20,
+        title : "Chocolate Crinkle Cookies",
+        link : "https://www.allrecipes.com/recipe/9861/chocolate-crinkles-ii/"
+    }, {
+        id : 21,
+        title : "The Best Chocolate Cake",
+        link : "https://addapinch.com/the-best-chocolate-cake-recipe-ever/"
+    }, {
+        id : 22,
+        title : "Butterzopf - Swiss Braided Bread",
+        link : "https://www.littleswissbaker.com/butterzopf-swiss-braided-bread/"
+    }, {
+        id : 23,
+        title : "Simply Sandwich Bread",
+        link : "https://sallysbakingaddiction.com/sandwich-bread/"
+    }, {
+        id : 24,
+        title : "Whole Wheat Quinoa Bread",
+        link : "https://www.melskitchencafe.com/whole-wheat-quinoa-bread/"
+    }, {
+        id : 25,
+        title : "Hot Cross Buns",
+        link : "https://www.recipetineats.com/hot-cross-buns-recipe/"
+    }, {
+        id : 26,
+        title : "Soft Pretzel Bites",
+        link : "https://sallysbakingaddiction.com/soft-pretzel-bites/"
     }
 ]
