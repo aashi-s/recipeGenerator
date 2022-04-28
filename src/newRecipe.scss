@@ -1,49 +1,110 @@
 body {
     background-color: #3d405b;
-    padding-top: 3em;
+    padding: 3em;
 }
 
-.doodle {
-    background: url(backgroundArt.png) no-repeat;
-    // position: fixed;
-    // background-size: cover;
+.blobOne {
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    z-index: -1;
 }
 
-.drink {
-    background-position: -36px -45px;
-    width: 140px;
-	height: 170px;
+.blobTwo {
+    position: absolute;
+    left: 230px;
+    bottom: -5em;
+    z-index: -1;
 }
 
-.bowl {
-    background-position: -284px -45px;
-    width: 158px;
-	height: 134px;
+.blobThree {
+    position: absolute;
+    right: -30px;
+    top: -2em;
+    // z-index: -1;
+    opacity: 50%;
 }
 
-.pudding {
-    background-position: -54px -325px;
-    width: 177px;
-	height: 125px;
+.blobFour {
+    position: absolute;
+    left: 50%;
+    bottom: -5em;
+    z-index: -1;
 }
 
-.lemonade {
-    background-position: -348px -260px;
-    width: 125px;
-	height: 185px;
+.blobFive {
+    position: absolute;
+    left: -1em;
+    top: 150px;
+    z-index: -1;
 }
 
+.blobSix {
+    position: absolute;
+    right: 100px;
+    bottom: 1em;
+    z-index: -1;
+}
+
+.blobSeven {
+    position: absolute;
+    right: 200px;
+    top: -5em;
+    z-index: -1;
+}
+
+.blobEight {
+    position: absolute;
+    left: 12em;
+    bottom: 100px;
+    z-index: -1;
+}
+
+.blobNine {
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    z-index: -1;
+}
+
+.blobTen {
+    position: absolute;
+    top: -3em;
+    // z-index: -1;
+}
+
+.blobEleven {
+    position: absolute;
+    top: 23em;
+    left: 30%;
+    z-index: -1;
+}
+
+.headingCard {
+    // background: rgba(61, 64, 91, 1);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 1em;
+}
 
 .description {
     color: white;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+    width: max-content;
+}
+
+h1.description {
+    font-size: 40px;
+    width: fit-content;
 }
 
 p.description {
     letter-spacing: 0.5px;
-    font-size: 18px;
-    width: 40%;
+    font-size: 20px;
 }
 
 .randomButton {
@@ -64,6 +125,7 @@ p.description {
     padding: 1em;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .recipeCard > img {
