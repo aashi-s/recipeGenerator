@@ -3,129 +3,136 @@ body {
     padding: 3em;
 }
 
-.blobOne {
+// .center {
+//     margin-top: 25%;
+// }
+
+.blob {
     position: absolute;
-    right: 30px;
-    top: 200px;
     z-index: -1;
+}
+
+.blobOne {
+    right: 2%;
+    top: 13%;
 }
 
 .blobTwo {
-    position: absolute;
-    left: 230px;
-    bottom: -5em;
-    z-index: -1;
+    top: 10%;
+    left: 3%;
 }
 
 .blobThree {
-    position: absolute;
-    right: -30px;
-    top: -2em;
-    // z-index: -1;
+    right: -2%;
+    top: 70%;
     opacity: 50%;
 }
 
 .blobFour {
-    position: absolute;
     left: 50%;
-    bottom: -5em;
-    z-index: -1;
+    top: 50%;
 }
 
 .blobFive {
-    position: absolute;
-    left: -1em;
-    top: 150px;
-    z-index: -1;
+    left: -2%;
+    top: 30%;
 }
 
 .blobSix {
-    position: absolute;
-    right: 100px;
-    bottom: 1em;
-    z-index: -1;
+    left: 15%;
+    top: 40%;
 }
 
 .blobSeven {
-    position: absolute;
-    right: 200px;
-    top: -5em;
-    z-index: -1;
+    right: 13%;
+    top: 4%;
 }
 
 .blobEight {
-    position: absolute;
-    left: 12em;
-    bottom: 100px;
-    z-index: -1;
+    left: 40%;
+    top: 70%;
 }
 
 .blobNine {
-    position: absolute;
-    left: 50%;
-    top: 300px;
-    z-index: -1;
+    top: 65%;
+    left: -5%
 }
 
 .blobTen {
-    position: absolute;
-    top: -3em;
-    // z-index: -1;
+    left: 15%;
 }
 
 .blobEleven {
-    position: absolute;
-    top: 23em;
-    left: 30%;
-    z-index: -1;
+    left: 10%;
+    top: 80%;
 }
 
 .headingCard {
-    // background: rgba(61, 64, 91, 1);
+    background: #f2cc8f;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
-    padding: 1em;
+    padding: 2em;
 }
 
 .description {
-    color: white;
+    color: #003049;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: max-content;
+    margin-block: 0;
 }
 
 h1.description {
-    font-size: 40px;
+    font-size: 50px;
     width: fit-content;
 }
 
 p.description {
     letter-spacing: 0.5px;
-    font-size: 20px;
+    font-size: 30px;
+    width: fit-content;
+    margin-top: 1em;
 }
 
 .randomButton {
-    margin-block: 2em;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.randomButton > a {
     width: fit-content;
+    background-color: #e07a5f;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+
+.randomButton > a:hover {
+    background-color: #3d405b;
 }
 
 .recipeCard {
     background-color: #f4f1de;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-block: 2em;
+    margin: 2em auto 0 auto;
     height: auto;
     border-radius: 25px;
     padding: 1em;
     display: flex;
     align-items: center;
     text-align: center;
+}
+
+[data-link] {
+    cursor: pointer;
 }
 
 .recipeCard > img {
@@ -142,3 +149,173 @@ p.description {
     color: #003049;
 }
 
+.recipeTitle {
+    font-size: 40px;
+}
+
+.toRecipeButton > a {
+    width: fit-content;
+    background-color: #f2cc8f;
+    color: #3d405b;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.toRecipeButton > a:hover {
+    background-color: #3d405b;
+    color: #f2cc8f;
+}
+
+@media screen and (max-width: 1290px) {
+    // p.description {
+    //     width: 55%;
+    // }
+
+    .blob {
+        width: 300px;
+    }
+
+    .blobTen {
+        top: -5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    h1.description {
+        font-size: 40px;
+    }
+
+    p.description {
+        font-size: 25px;
+    }
+
+    .recipeTitle {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .blob {
+        width: 200px;
+    }
+
+    .recipeTitle {
+        font-size: 25px;
+    }
+
+    .toRecipeButton > a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .recipeTitle {
+        font-size: 20px;
+    }
+
+    .recipeCard {
+        width: 80%;
+    }
+
+    .recipeCard > img {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blob {
+        width: 150px;
+    }
+
+    .recipeCard {
+        width: 85%;
+        padding: 8px;
+    }
+
+    .rightColumn {
+        padding: 0.5em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    h1.description {
+        font-size: 35px;
+    }
+
+    p.description {
+        font-size: 20px;
+    }
+
+    .blob {
+        width: 100px;
+    }
+
+    .rightColumn {
+        padding: 0;
+    }
+
+    .toRecipeButton > a {
+        font-size: 10px;
+    }
+
+    .randomButton > a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .toRecipeButton > a {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .toRecipeButton {
+        padding-left: 8px;
+    }
+
+    .blobEleven {
+        top: 85%;
+    }
+
+    .blobNine {
+        bottom: -5%;
+    }
+
+    .blobEight {
+        top: 80%;
+    }
+
+    .blobThree {
+        top: 90%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    h1.description {
+        font-size: 25px;
+    }
+
+    p.description {
+        font-size: 15px;
+    }
+
+    .randomButton {
+        margin-top: 0.5em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    h1.description {
+        font-size: 20px;
+    }
+
+    // .blob {
+    //     width: 75px;
+    // }
+}
