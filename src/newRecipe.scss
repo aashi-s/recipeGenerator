@@ -123,7 +123,7 @@ p.description {
     background-color: #f4f1de;
     width: 70%;
     margin: 2em auto 0 auto;
-    height: auto;
+    // height: auto;
     border-radius: 25px;
     padding: 1em;
     display: flex;
@@ -151,6 +151,11 @@ p.description {
 
 .recipeTitle {
     font-size: 40px;
+    margin: 0;
+}
+
+.toRecipeButton {
+    margin-block: 2em;
 }
 
 .toRecipeButton > a {

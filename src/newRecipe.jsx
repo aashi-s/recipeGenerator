@@ -1,6 +1,5 @@
 import React from "react";
 import $ from 'jquery';
-import Button from '@mui/material/Button';
 import { recipeLinks } from "./recipeLinks";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './newRecipe.scss'
@@ -89,7 +88,7 @@ export default function NewRecipe() {
                     </div> */}
                 </div>
                 {clicked && <div className="recipeCard">
-                        <img src={`../recipeImages/${recipe.id}.jpg`} />
+                        <img src={`../recipeGenerator/recipeImages/${recipe.id}.jpg`}/>
                         <div className="rightColumn">
                             <h2 className="recipeTitle">{recipe.title}</h2>
                             <div className="toRecipeButton"><a href={recipe.link} target="_blank">Go to recipe</a></div>
