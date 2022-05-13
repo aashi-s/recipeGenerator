@@ -99,6 +99,7 @@ export default function NewRecipe() {
                     </div>
                 }
             </div>
+            <Footer>Designed and developed by Aashi Shah</Footer>
         </div>
     )
 }
