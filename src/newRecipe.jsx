@@ -56,6 +56,7 @@ export default function NewRecipe() {
 
     return (
         <div>
+            <div className="content">
             <img src={blob1} className="blob blobOne" alt=""/>
             <img src={blob2} className="blob blobTwo" alt=""/>
             <img src={blob3} className="blob blobThree" alt=""/>
@@ -99,7 +100,8 @@ export default function NewRecipe() {
                     </div>
                 }
             </div>
-            <Footer>Designed and developed by Aashi Shah</Footer>
+            </div>
+            <footer><p className="footer">Designed and developed by Aashi Shah</p></footer>
         </div>
     )
 }
