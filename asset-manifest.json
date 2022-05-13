@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/recipeGenerator/static/css/main.b0b362b7.css",
-    "main.js": "/recipeGenerator/static/js/main.a6ed30c1.js",
+    "main.css": "/recipeGenerator/static/css/main.be65621a.css",
+    "main.js": "/recipeGenerator/static/js/main.270fdafe.js",
     "static/js/787.c0a24de9.chunk.js": "/recipeGenerator/static/js/787.c0a24de9.chunk.js",
     "static/media/blob11.svg": "/recipeGenerator/static/media/blob11.be085aa3dab13f79a6679c649c8196f1.svg",
     "static/media/blob8.svg": "/recipeGenerator/static/media/blob8.9971e1f4d81090b62924be424d90f797.svg",
@@ -15,12 +15,12 @@
     "static/media/blob10.svg": "/recipeGenerator/static/media/blob10.38540dca7b0d901e3acf1d9a2e3c22c6.svg",
     "static/media/blob7.svg": "/recipeGenerator/static/media/blob7.9cc799126cc5caed884e83fe1dadef79.svg",
     "static/media/blob2.svg": "/recipeGenerator/static/media/blob2.13300053a7b97503ad10e350fd4c5664.svg",
-    "main.b0b362b7.css.map": "/recipeGenerator/static/css/main.b0b362b7.css.map",
-    "main.a6ed30c1.js.map": "/recipeGenerator/static/js/main.a6ed30c1.js.map",
+    "main.be65621a.css.map": "/recipeGenerator/static/css/main.be65621a.css.map",
+    "main.270fdafe.js.map": "/recipeGenerator/static/js/main.270fdafe.js.map",
     "787.c0a24de9.chunk.js.map": "/recipeGenerator/static/js/787.c0a24de9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b362b7.css",
-    "static/js/main.a6ed30c1.js"
+    "static/css/main.be65621a.css",
+    "static/js/main.270fdafe.js"
   ]
 }
