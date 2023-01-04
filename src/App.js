@@ -1,5 +1,5 @@
 import './App.css';
-import NewRecipe from './newRecipe.jsx'
+import NewRecipe from './newRecipe.js'
 
 function App() {
   return (
