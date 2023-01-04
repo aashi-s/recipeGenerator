@@ -88,7 +88,7 @@ export default function NewRecipe() {
                     </div> */}
                 </div>
                 {clicked && <div className="recipeCard">
-                        <img src={`../recipeGenerator/recipeImages/${recipe.id}.jpg`}/>
+                        <img src={`./recipeImages/${recipe.id}.jpg`}/>
                         <div className="rightColumn">
                             <h2 className="recipeTitle">{recipe.title}</h2>
                             <div className="toRecipeButton"><a href={recipe.link} target="_blank">Go to recipe</a></div>
