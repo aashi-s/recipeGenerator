@@ -1,5 +1,4 @@
 import React from "react";
-import $ from 'jquery';
 import { recipeLinks } from "./recipeLinks";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './newRecipe.css'
