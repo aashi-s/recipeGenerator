@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import NewRecipe from './newRecipe.jsx'
 
 function App() {

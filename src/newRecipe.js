@@ -2,7 +2,7 @@ import React from "react";
 import $ from 'jquery';
 import { recipeLinks } from "./recipeLinks";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import './newRecipe.scss'
+import './newRecipe.css'
 import blob1 from './backgroundImages/blob1.svg'
 import blob2 from './backgroundImages/blob2.svg'
 import blob3 from './backgroundImages/blob3.svg'
