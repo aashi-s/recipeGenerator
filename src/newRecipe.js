@@ -13,6 +13,7 @@ import blob8 from './backgroundImages/blob8.svg'
 import blob9 from './backgroundImages/blob9.svg'
 import blob10 from './backgroundImages/blob10.svg'
 import blob11 from './backgroundImages/blob11.svg'
+import one from './recipeImages/1.jpg'
 
 export default function NewRecipe() {
 
@@ -88,7 +89,7 @@ export default function NewRecipe() {
                     </div> */}
                 </div>
                 {clicked && <div className="recipeCard">
-                        <img src={`./recipeImages/${recipe.id}.jpg`}/>
+                        <img src={one}/>
                         <div className="rightColumn">
                             <h2 className="recipeTitle">{recipe.title}</h2>
                             <div className="toRecipeButton"><a href={recipe.link} target="_blank">Go to recipe</a></div>
