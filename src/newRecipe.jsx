@@ -101,7 +101,7 @@ export default function NewRecipe() {
                 }
             </div>
             </div>
-            <footer><p className="footer">Designed and developed by Aashi Shah</p></footer>
+            <div className="footer">Designed and developed by Aashi Shah</div>
         </div>
     )
 }
