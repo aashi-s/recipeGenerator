@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/recipeGenerator/static/css/main.3de0fd74.css",
+    "main.js": "/recipeGenerator/static/js/main.f8c17c77.js",
+    "static/js/787.c0a24de9.chunk.js": "/recipeGenerator/static/js/787.c0a24de9.chunk.js",
+    "static/media/blob11.svg": "/recipeGenerator/static/media/blob11.a6c585a7dc1b06da3d76d3789a998dc6.svg",
+    "static/media/blob8.svg": "/recipeGenerator/static/media/blob8.54a29d19e0efe745eac2ee2eb6784684.svg",
+    "static/media/blob6.svg": "/recipeGenerator/static/media/blob6.bd53439994270895e042d06b5f7125b8.svg",
+    "static/media/blob3.svg": "/recipeGenerator/static/media/blob3.40f55d2880708be8a697be7784f8ca31.svg",
+    "static/media/blob5.svg": "/recipeGenerator/static/media/blob5.03000517954b46d4f118f02aba499da9.svg",
+    "static/media/blob1.svg": "/recipeGenerator/static/media/blob1.841c907355e1be39cf11010dfc7909ac.svg",
+    "index.html": "/recipeGenerator/index.html",
+    "static/media/blob9.svg": "/recipeGenerator/static/media/blob9.80273f5feff8f1d0a05799a9b83ceac7.svg",
+    "static/media/blob4.svg": "/recipeGenerator/static/media/blob4.3c63a8a473459c9bbaf568367acd42b1.svg",
+    "static/media/blob10.svg": "/recipeGenerator/static/media/blob10.83783ce35375e0240e9a53203a034970.svg",
+    "static/media/blob7.svg": "/recipeGenerator/static/media/blob7.fa7a4cf92c9bacb526506c3d92064bf1.svg",
+    "static/media/blob2.svg": "/recipeGenerator/static/media/blob2.89d1a79966ed4789221670c0cb696da1.svg",
+    "main.3de0fd74.css.map": "/recipeGenerator/static/css/main.3de0fd74.css.map",
+    "main.f8c17c77.js.map": "/recipeGenerator/static/js/main.f8c17c77.js.map",
+    "787.c0a24de9.chunk.js.map": "/recipeGenerator/static/js/787.c0a24de9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3de0fd74.css",
+    "static/js/main.f8c17c77.js"
+  ]
+}
