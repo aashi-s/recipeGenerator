@@ -108,5 +108,29 @@ export const recipeLinks = [
         id : 26,
         title : "Soft Pretzel Bites",
         link : "https://sallysbakingaddiction.com/soft-pretzel-bites/"
+    }, {
+        id : 27,
+        title : "Crusty Artisan Bread",
+        link : "https://www.onceuponachef.com/recipes/crusty-artisan-bread.html"
+    }, {
+        id : 28,
+        title : "Dinner Rolls",
+        link : "https://www.joshuaweissman.com/post/greatest-dinner-rolls"
+    }, {
+        id : 29,
+        title : "Chocolate Cupcakes",
+        link : "https://addapinch.com/chocolate-cupcakes-recipe/"
+    }, {
+        id : 30,
+        title : "Chocolate Hazelnut Cookies",
+        link : "https://cooking.nytimes.com/recipes/1023678-chocolate-hazelnut-cookies"
+    }, {
+        id : 31,
+        title : "Mocha Marble Cookies",
+        link : "https://freshbeanbakery.com/mocha-marble-cookies/"
+    }, {
+        id : 32,
+        title : "Crave Rockstar Cookies",
+        link : "https://cookingwithkarli.com/crave-rockstar-cookie-recipe/"
     }
 ]
