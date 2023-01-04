@@ -13,7 +13,39 @@ import blob8 from './backgroundImages/blob8.svg'
 import blob9 from './backgroundImages/blob9.svg'
 import blob10 from './backgroundImages/blob10.svg'
 import blob11 from './backgroundImages/blob11.svg'
-import one from './recipeImages/1.jpg'
+import _0 from './recipeImages/0.jpg'
+import _1 from './recipeImages/1.jpg'
+import _2 from './recipeImages/2.jpg'
+import _3 from './recipeImages/3.jpg'
+import _4 from './recipeImages/4.jpg'
+import _5 from './recipeImages/5.jpg'
+import _6 from './recipeImages/6.jpg'
+import _7 from './recipeImages/7.jpg'
+import _8 from './recipeImages/8.jpg'
+import _9 from './recipeImages/9.jpg'
+import _10 from './recipeImages/10.jpg'
+import _11 from './recipeImages/11.jpg'
+import _12 from './recipeImages/12.jpg'
+import _13 from './recipeImages/13.jpg'
+import _14 from './recipeImages/14.jpg'
+import _15 from './recipeImages/15.jpg'
+import _16 from './recipeImages/16.jpg'
+import _17 from './recipeImages/17.jpg'
+import _18 from './recipeImages/18.jpg'
+import _19 from './recipeImages/19.jpg'
+import _20 from './recipeImages/20.jpg'
+import _21 from './recipeImages/21.jpg'
+import _22 from './recipeImages/22.jpg'
+import _23 from './recipeImages/23.jpg'
+import _24 from './recipeImages/24.jpg'
+import _25 from './recipeImages/25.jpg'
+import _26 from './recipeImages/26.jpg'
+import _27 from './recipeImages/27.jpg'
+import _28 from './recipeImages/28.jpg'
+import _29 from './recipeImages/29.jpg'
+import _30 from './recipeImages/30.jpg'
+import _31 from './recipeImages/31.jpg'
+import _32 from './recipeImages/32.jpg'
 
 export default function NewRecipe() {
 
@@ -89,7 +121,7 @@ export default function NewRecipe() {
                     </div> */}
                 </div>
                 {clicked && <div className="recipeCard">
-                        <img src={one}/>
+                        <img src={`_${recipe.id}`}/>
                         <div className="rightColumn">
                             <h2 className="recipeTitle">{recipe.title}</h2>
                             <div className="toRecipeButton"><a href={recipe.link} target="_blank">Go to recipe</a></div>
