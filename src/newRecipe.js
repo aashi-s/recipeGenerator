@@ -79,33 +79,131 @@ export default function NewRecipe() {
         setRecipe(currentRecipe)
     }
 
-    // $(document).ready(function () {
-    //     $("[data-link]").click(function () {
-    //         window.location.href = $(this).attr("data-link");
-    //         return false;
-    //     });
-    // });
+    function getImage(number) {
+        let image = _0
+        switch (number) {
+            case 1:
+                image = _1
+                break;
+            case 2:
+                image = _2
+                break;
+            case 3:
+                image = _3
+                break;
+            case 4:
+                image = _4
+                break;
+            case 5:
+                image = _5
+                break;
+            case 6:
+                image = _6
+                break;
+            case 7:
+                image = _7
+                break;
+            case 8:
+                image = _8
+                break;
+            case 9:
+                image = _9
+                break;
+            case 10:
+                image = _10
+                break;
+            case 11:
+                image = _11
+                break;
+            case 12:
+                image = _12
+                break;
+            case 13:
+                image = _13
+                break;
+            case 14:
+                image = _14
+                break;
+            case 15:
+                image = _15
+                break;
+            case 16:
+                image = _16
+                break;
+            case 17:
+                image = _17
+                break;
+            case 18:
+                image = _18
+                break;
+            case 19:
+                image = _19
+                break;
+            case 20:
+                image = _20
+                break;
+            case 21:
+                image = _21
+                break;
+            case 22:
+                image = _22
+                break;
+            case 23:
+                image = _23
+                break;
+            case 24:
+                image = _24
+                break;
+            case 25:
+                image = _25
+                break;
+            case 26:
+                image = _26
+                break;
+            case 27:
+                image = _27
+                break;
+            case 28:
+                image = _28
+                break;
+            case 29:
+                image = _29
+                break;
+            case 30:
+                image = _30
+                break;
+            case 31:
+                image = _31
+                break;
+            case 32:
+                image = _32
+                break;
+            default:
+                break;
+        }
+        return image
+    }
 
     return (
         <div>
             <div className="content">
-            <img src={blob1} className="blob blobOne" alt=""/>
-            <img src={blob2} className="blob blobTwo" alt=""/>
-            <img src={blob3} className="blob blobThree" alt=""/>
-            <img src={blob4} className="blob blobFour" alt=""/>
-            <img src={blob5} className="blob blobFive" alt=""/>
-            <img src={blob6} className="blob blobSix" alt=""/>
-            <img src={blob7} className="blob blobSeven" alt=""/>
-            <img src={blob8} className="blob blobEight" alt=""/>
-            <img src={blob9} className="blob blobNine" alt=""/>
-            <img src={blob10} className="blob blobTen" alt=""/>
-            <img src={blob11} className="blob blobEleven" alt=""/>
-            <div className="center">
-                <div className="headingCard">
-                    <h1 className="description">Find your next favourite recipe</h1>
-                    <p className="description">Pick one of these tried and true baked goods, and see for yourself why we love them!</p>
-                    <div className="randomButton"><a onClick={() => {setClicked(true); getRecipe()}}>{clicked ? "Get another one" : "Find me a recipe"}</a></div>
-                    {/* <div className="randomButton">
+                <img src={blob1} className="blob blobOne" alt="" />
+                <img src={blob2} className="blob blobTwo" alt="" />
+                <img src={blob3} className="blob blobThree" alt="" />
+                <img src={blob4} className="blob blobFour" alt="" />
+                <img src={blob5} className="blob blobFive" alt="" />
+                <img src={blob6} className="blob blobSix" alt="" />
+                <img src={blob7} className="blob blobSeven" alt="" />
+                <img src={blob8} className="blob blobEight" alt="" />
+                <img src={blob9} className="blob blobNine" alt="" />
+                <img src={blob10} className="blob blobTen" alt="" />
+                <img src={blob11} className="blob blobEleven" alt="" />
+                <div className="center">
+                    <div className="headingCard">
+                        <h1 className="description">Find your next favourite recipe</h1>
+                        <p className="description">Pick one of these tried and true baked goods, and see for yourself why we love them!</p>
+                        <div className="randomButton"><a onClick={() => { setClicked(true); getRecipe() }}>{clicked ? "Get another one" : "Find me a recipe"}</a></div>
+                        {/* <div className="randomButton">
                         <ThemeProvider theme={theme}>
                             <Button
                                 variant="contained" 
@@ -119,9 +217,9 @@ export default function NewRecipe() {
                             </Button>
                         </ThemeProvider>
                     </div> */}
-                </div>
-                {clicked && <div className="recipeCard">
-                        <img src={`_8`}/>
+                    </div>
+                    {clicked && <div className="recipeCard">
+                        <img src={getImage(recipe.number)} />
                         <div className="rightColumn">
                             <h2 className="recipeTitle">{recipe.title}</h2>
                             <div className="toRecipeButton"><a href={recipe.link} target="_blank">Go to recipe</a></div>
@@ -130,8 +228,8 @@ export default function NewRecipe() {
                             </ThemeProvider> */}
                         </div>
                     </div>
-                }
-            </div>
+                    }
+                </div>
             </div>
             <div className="footer">Designed and developed by Aashi Shah</div>
         </div>
