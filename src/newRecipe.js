@@ -83,6 +83,9 @@ export default function NewRecipe() {
     function getImage() {
         let image = ""
         switch (recipe.id) {
+            case 0:
+                image = _0
+                break;
             case 1:
                 image = _1
                 break;
@@ -180,7 +183,6 @@ export default function NewRecipe() {
                 image = _32
                 break;
             default:
-                image = _0
                 break;
         }
         setImage(image)
