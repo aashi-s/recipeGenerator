@@ -79,9 +79,9 @@ export default function NewRecipe() {
         setRecipe(currentRecipe)
     }
 
-    function getImage(number) {
+    function getImage() {
         let image = _0
-        switch (number) {
+        switch (recipe.id) {
             case 1:
                 image = _1
                 break;
@@ -219,7 +219,7 @@ export default function NewRecipe() {
                     </div> */}
                     </div>
                     {clicked && <div className="recipeCard">
-                        <img src={getImage(recipe.number)} />
+                        <img src={getImage()} />
                         <div className="rightColumn">
                             <h2 className="recipeTitle">{recipe.title}</h2>
                             <div className="toRecipeButton"><a href={recipe.link} target="_blank">Go to recipe</a></div>
