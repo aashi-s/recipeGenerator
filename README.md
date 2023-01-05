@@ -1,5 +1,5 @@
 # Link to the project
-https://aashi-s.github.io/recipeGenerator/
+https://aashi-s-recipe-generator.netlify.app/
 
 # Tech stack
 Languages : JavaScript, HTML, CSS
