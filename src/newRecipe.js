@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { recipeLinks } from "./recipeLinks";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './newRecipe.css'
@@ -72,6 +72,7 @@ export default function NewRecipe() {
 
     const [clicked, setClicked] = React.useState(false)
     const [recipe, setRecipe] = React.useState({})
+    const [image, setImage] = React.useState("")
 
     function getRecipe() {
         const randomLinkNum = Math.floor(Math.random() * recipeLinks.length)
@@ -181,8 +182,12 @@ export default function NewRecipe() {
             default:
                 break;
         }
-        return image
+        setImage(image)
     }
+
+    useEffect(() => {
+        getImage()
+    }, [recipe])
 
     return (
         <div>
@@ -219,7 +224,7 @@ export default function NewRecipe() {
                     </div> */}
                     </div>
                     {clicked && <div className="recipeCard">
-                        <img src={getImage()} />
+                        <img src={image} />
                         <div className="rightColumn">
                             <h2 className="recipeTitle">{recipe.title}</h2>
                             <div className="toRecipeButton"><a href={recipe.link} target="_blank">Go to recipe</a></div>
